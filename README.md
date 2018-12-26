@@ -24,5 +24,5 @@ First you need to create an **levToken** (*read more on [documentation](https://
 $client_id = "...";
 $secret_key = "...";
 $environment = "homolog"
-$levPay = new \Levpay($environment, $client_id, $secret_key);
+$lp = new \Levpay\Levpay($client_id, $secret_key, $environment);
 ```
