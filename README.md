@@ -18,7 +18,7 @@ composer require 'levpay/levpay-php'
 
 ### Basic
 
-First you need to create an levToken (read more on [documentation](https://docs.levpay.com/#have-you-got-your-levtoken))
+First you need to create an **levToken** (*read more on [documentation](https://docs.levpay.com/#have-you-got-your-levtoken)*)
 
 ```php
 $client_id = "...";
