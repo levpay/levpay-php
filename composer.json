@@ -1,0 +1,31 @@
+{
+    "name": "levpay/levpay-php",
+    "description": "Levpay PHP Library",
+    "type": "lib",
+    "keywords": [
+        "levpay",
+        "pagamentos",
+        "payments brazil",
+        "pagamento brasil",
+	"deposito bancario",
+        "api"
+    ],
+    "homepage": "https://levpay.com",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+    },
+    "scripts": {
+        "test": [
+            "@composer install",
+            "vendor/bin/phpunit"
+        ]
+    },
+     "autoload": {
+        "psr-4": {"Levpay\\": "lib/"}
+    }
+}
